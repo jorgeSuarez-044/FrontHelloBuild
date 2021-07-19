@@ -41,7 +41,7 @@ class Contact extends React.Component {
             alert(user)
             history.push({ pathname: "/profileUser", user: this.state.name });
           }else{
-            this.setState({error:'Please check your email or password'})
+            this.setState({error:'Please check your user or password'})
           }
         }
       }
